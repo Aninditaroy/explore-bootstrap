@@ -1,7 +1,7 @@
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
-/* common class */
+/* common utilities */
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -12,12 +12,25 @@ body {
     color:  #2937f0;
 }
 
-
+/* navbar */
 .navigation {
     height: 80px;
 }
 
-
+/* banner */
 .banner {
     height: calc(100vh -80px);
+    min-height: 500px;
 }
+
+/* stop writing */
+.stop-writing {
+    background-image: url(img/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+}
+
+/* download */
